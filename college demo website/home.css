@@ -1,0 +1,201 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.rapper{
+    background: url("images/register_background.jpg") no-repeat center center;
+    background-size: 100%;
+    backface-visibility: visible; 
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #101110;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: -0.1rem;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f8e8e8;
+    padding: 10px;
+}
+.rapper input{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px 14px;
+    width: 120px;
+}
+.search{
+    color: white;
+    float: right;
+    padding: 1px 75px;
+}
+img{
+    width: 19%;
+    margin-left: 1rem;
+    margin-top: 0.5%;
+    margin-bottom: 2rem;
+}
+nav ul li:hover{
+    background-color: coral;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.selection{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+.selection h1{
+    color: #f8f6f6;
+    line-height: 50px;
+}
+.selection p{
+    color: grey;
+}
+.btn_1{
+    background-color: orange;
+    padding: 0.7rem 1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+ #courses{
+     display: flex;
+     text-align: center;
+ }
+ #courses img{
+     width: 250px;
+     border-radius: 10px;
+     border: 2px solid #000000;
+ }
+
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #ffffff;
+    border:none;
+    border-radius: 10px;
+}
+footer{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+
+
+table{
+    display:table;
+    border-color:#7e0b0b;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 30px;
+    padding:30px;
+    border-collapse: collapse;
+    width:auto;
+    height:auto;
+}
+table td{
+    border: 3px solid;
+    border-color: #ffffff;
+    width:300px;
+    height:260px;
+    cursor: pointer;
+    /* background-color: rgb(0,0,0,0.2);    */
+}
+
+table td h3{
+    color:#310000;
+    position:absolute;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.cs{
+   background-image: url("images/computerS.png"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100%;
+   height:182%;
+   filter: grayscale(30%);
+    margin: 0;
+}
+.it{
+    background-image: url("images/IT.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:80%;
+    filter: grayscale(30%);
+}
+.ece{
+    background-image: url("images/ElectronicsE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:80%;
+    filter: grayscale(30%);
+}
+.ee{
+    background-image: url("images/ElectricalE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:80%;
+    filter: grayscale(30%);
+}
+.ce{
+    background-image: url("images/CivilE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(30%);
+    width:100%;
+    height:80%;
+}
+.me{
+   background-image: url("images/MechanicalE.webp"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100%;
+   height:80%;
+   filter: grayscale(30%);
+}
+.ch{
+   background-image: url("images/ChemicalE.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   filter: grayscale(30%);
+   width:100%;
+   height:80%;
+}
